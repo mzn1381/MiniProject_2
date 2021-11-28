@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Vazir";
+    src: url('../Fonts/fonts/vazir.eot') format('eot'), url('../Fonts/fonts/vazir.ttf') format('truetype'), url('../Fonts/fonts/vazir.woff2') format('woff2'), url('../Fonts/fonts/vazir.woff') format('woff');
+}
+
+body {
+    font-family: "Vazir";
+    direction: rtl;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.container-menu {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    width: 40%;
+    position: relative;
+    left: 10rem;
+}
+
+.menu-item ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    cursor: pointer;
+    padding: 1px 1.25rem;
+}
+
+.menu-icon {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    background-image: url(../Image/images/6.jpg);
+    background-size: cover;
+}
+
+.image-header-description {
+    position: relative;
+    right: 18rem;
+    top: 5rem;
+}
+
+.image-header-description span,
+h1,
+h2 {
+    position: relative;
+}
+
+.image-header-description h1 {
+    font-size: 4rem;
+    bottom: 1rem;
+}
+
+.image-header-description span {
+    color: #d7d4d085;
+    font-size: 5.2rem;
+    font-weight: bolder;
+}
+
+.image-header-description h1 {
+    font-size: 2.5rem;
+    bottom: 5.75rem;
+    right: 6rem;
+    font-weight: 100;
+}
+
+.image-header-description h2 {
+    font-size: 6rem;
+    color: #6c6c6c;
+    position: relative;
+    bottom: 7rem;
+    right: 10rem;
+}
+
+.des-product,
+.des-product-right,
+.des-product-right-container {
+    display: flex;
+}
+
+.des-product-container-image {
+    width: 35%;
+}
+
+.des-product-container-image img {
+    width: 100%;
+}
